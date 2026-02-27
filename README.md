@@ -29,9 +29,9 @@ generator = SEOBlogGenerator(api_key="your-api-key")
 
 # Generate blog post
 result = generator.generate(
-    url="https://mvland.com",
-    topic="AI music video generator",
-    keywords=["AI music video", "music video maker", "AI MV generator"]
+    url="<your-product-url>",
+    topic="<your-topic>",
+    keywords=["<keyword1>", "<keyword2>", "<keyword3>"]
 )
 
 if result['success']:
@@ -46,10 +46,10 @@ if result['success']:
 export GEMINI_API_KEY="your-api-key"
 
 # Generate blog
-python seo_blog.py --url https://mvland.com --topic "AI music video" --output blog.md
+python seo_blog.py --url <your-url> --topic "<your-topic>" --output blog.md
 
 # With keywords
-python seo_blog.py -u https://example.com -t "Product review" -k "keyword1" "keyword2" -o output.md
+python seo_blog.py -u <your-url> -t "<your-topic>" -k "<keyword1>" "<keyword2>" -o output.md
 ```
 
 ## API Reference

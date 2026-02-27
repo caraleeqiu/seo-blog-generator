@@ -6,7 +6,7 @@ Usage:
     from seo_blog import SEOBlogGenerator
 
     generator = SEOBlogGenerator(api_key="your-gemini-api-key")
-    result = generator.generate("https://mvland.com", "AI music video generator")
+    result = generator.generate("<your-product-url>", "<your-topic>")
 """
 
 import re
